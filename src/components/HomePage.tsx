@@ -1,4 +1,5 @@
 import AboutMe from "./AboutMe";
+import Articles from "./Articles";
 import Intro from "./Intro";
 import Projects from "./Projects";
 import TechStack from "./TechStack";
@@ -10,6 +11,7 @@ const HomePage = () => {
       <AboutMe />
       <TechStack />
       <Projects />
+      <Articles />
     </>
   );
 };
