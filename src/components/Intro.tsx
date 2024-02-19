@@ -5,10 +5,12 @@ const Intro = () => {
     <section>
       <div className="text-center justify-center items-center py-10">
         <Image
-          src="https://github.com/zamarz/ideal-octo-eureka/blob/main/public/assets/images/ZM_profile.jpg"
-          className="w-full sm:w-auto sm:max-w-lg mx-auto "
+          src={
+            "https://raw.githubusercontent.com/zamarz/ideal-octo-eureka/main/public/assets/images/ZM_profile.jpg"
+          }
+          className="w-full sm:w-auto sm:max-w-lg mx-auto rounded-full"
           alt="A portrait image of the developer"
-          width={400}
+          width={300}
           height={400}
         />
         <h2 className="font-black text-2xl">Hi, I'm Zach</h2>
