@@ -1,7 +1,13 @@
+import AboutMe from "./AboutMe";
 import Intro from "./Intro";
 
 const HomePage = () => {
-  return <Intro />;
+  return (
+    <>
+      <Intro />
+      <AboutMe />
+    </>
+  );
 };
 
 export default HomePage;
