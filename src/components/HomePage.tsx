@@ -1,5 +1,7 @@
+import Intro from "./Intro";
+
 const HomePage = () => {
-  return <div>Hello world!</div>;
+  return <Intro />;
 };
 
 export default HomePage;
