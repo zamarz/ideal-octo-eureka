@@ -9,3 +9,5 @@ const ThemeContext = createContext<ThemeContextType>({
   darkTheme: false,
   setDarkTheme: () => null,
 });
+
+export default ThemeContext;
