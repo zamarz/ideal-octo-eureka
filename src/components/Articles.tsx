@@ -3,11 +3,11 @@ import Image from "next/image";
 const Articles = () => {
   return (
     <section>
-      <div className="text-center justify-center items-center py-10">
+      <div className="text-center justify-center items-center ">
         <h2 className="font-black text-2xl">My articles</h2>
-        <p>A selection of my articles</p>
+        <p>A selection of my articles that I wrote as a tech writer</p>
       </div>
-      <div className="text-center justify-center items-center py-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 text-center justify-center items-center py-10 my-10">
         <div>
           <Image
             src={
@@ -16,9 +16,9 @@ const Articles = () => {
             width={200}
             height={200}
             alt="An image of a mountain in Japan"
-            className="w-full sm:w-auto sm:max-w-lg mx-auto"
+            className="w-full sm:w-auto sm:max-w-lg mx-auto my-4"
           />
-          <h2 className="font-black text-xl">
+          <h2 className="font-black text-xl my-2">
             Why does Japan lag behind on startups?
           </h2>
           <p>
@@ -43,9 +43,9 @@ const Articles = () => {
             width={200}
             height={200}
             alt="An image of code on a laptop screen"
-            className="w-full sm:w-auto sm:max-w-lg mx-auto"
+            className="w-full sm:w-auto sm:max-w-lg mx-auto my-4"
           />
-          <h2 className="font-black text-xl">
+          <h2 className="font-black text-xl my-2">
             With AI on the rise, is it time to join a union?
           </h2>
           <p>
@@ -70,9 +70,9 @@ const Articles = () => {
             width={200}
             height={200}
             alt="An image of a mountain in Japan"
-            className="w-full sm:w-auto sm:max-w-lg mx-auto"
+            className="w-full sm:w-auto sm:max-w-lg mx-auto my-4"
           />
-          <h2 className="font-black text-xl">
+          <h2 className="font-black text-xl my-2">
             Why Frankfurt is clamping down on data center sprawl
           </h2>
           <p>
