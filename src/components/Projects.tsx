@@ -1,4 +1,25 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { getProjects } from "../app/utils/firebase";
+
 const Projects = () => {
+  const [projectData, setProjectData] = useState<Array<{
+    id: string;
+    data: any;
+  }> | null>(null);
+
+  useEffect(() => {
+    const fetchProjects = async () => {
+      const projectList = await getProjects();
+      setProjectData(projectList);
+    };
+
+    fetchProjects();
+  }, []);
+
+  console.log(projectData);
+
   return (
     <section>
       <div className="text-center justify-center items-center py-10">
@@ -16,6 +37,7 @@ const Projects = () => {
           <h2>Title</h2>
           <p>paragraph here</p>
           <p>Button here</p>
+          <p>GITHUB AND WEB LINK</p>
         </div>
         <div>
           <h1>Image Here</h1>
