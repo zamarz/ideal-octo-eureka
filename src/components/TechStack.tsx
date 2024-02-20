@@ -13,7 +13,7 @@ const TechStack = () => {
             Here are some of the technologies I use...
           </p>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 py-5">
+        <div className="grid grid-cols-2 sm:grid-cols-3 py-5 ">
           <div className="flex flex-col items-center py-5">
             <Image
               src={
