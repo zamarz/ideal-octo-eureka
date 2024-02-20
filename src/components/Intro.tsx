@@ -18,7 +18,7 @@ const Intro = () => {
         </div>
 
         <div className="flex flex-row items-center py-5 ">
-          <h2 className="font-black text-5xl">Hi, I'm Zach</h2>
+          <h2 className="font-black text-5xl py-5">Hi, I'm Zach</h2>
           <div className="px-5">
             <IoPizzaOutline style={style} className="animate-bounce" />
           </div>

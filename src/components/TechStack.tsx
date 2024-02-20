@@ -9,7 +9,7 @@ const TechStack = () => {
       <div className="text-center justify-center items-center py-10">
         <div>
           <h2 className="font-black text-5xl">My Tech Stack</h2>
-          <p className="text-2xl my-4">
+          <p className="text-2xl my-4 py-5">
             Here are some of the technologies I use...
           </p>
         </div>

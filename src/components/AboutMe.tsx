@@ -12,15 +12,15 @@ const AboutMe = () => {
           <h2 className="font-black text-5xl">About Me</h2>
           <BsBook style={style} className="ml-4" />
         </div>
-        <div className="py-3 text-2xl">
-          <p className="">
+        <div className="py-7 text-2xl">
+          <p>
             {" "}
             After covering the world of B2B tech as a writer, I decided to take
             the plunge and dive even deeper into the industry by becoming a
             software developer.{" "}
           </p>
           <br></br>
-          <p className="">
+          <p>
             This is something that has always fascinated me and I find it very
             satisfying to connect the pieces of the puzzle and understand how
             everything works, not only in the back-end but the front-end too.
