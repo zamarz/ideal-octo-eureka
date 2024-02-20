@@ -1,6 +1,8 @@
 import { Project } from "@/app/models/projects";
 import Image from "next/image";
 import { FC } from "react";
+import { AiFillGithub } from "react-icons/ai";
+import { MdWeb } from "react-icons/md";
 
 type Props = {
   project: Project;
@@ -22,12 +24,22 @@ const ProjectCard: FC<Props> = (props) => {
       />
       <h2 className="text-2xl font-bold">{title}</h2>
       <p className="px-3 mx-3 my-3">{description}</p>
-      <button className="button mx-5">
-        <a href={github}>See repo</a>
-      </button>
-      <button className="button">
-        <a href={web}>See online</a>
-      </button>
+      <div className="flex space-x-2 items-center justify-center">
+        <div>
+          <button className="button mx-5">
+            <a href={github} className="flex items-center">
+              <AiFillGithub className="mr-2" />
+              See code
+            </a>
+          </button>
+          <button className="button">
+            <a href={web} className="flex items-center">
+              <MdWeb className="mr-2" />
+              Visit site
+            </a>
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
