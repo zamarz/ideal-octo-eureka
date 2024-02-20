@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <section>
+    <section className="px-10 py-10 mx-auto container">
       <div className="text-center justify-center items-center py-10">
         <Image
           src={
@@ -13,8 +13,8 @@ const Intro = () => {
           width={300}
           height={400}
         />
-        <h2 className="font-black text-2xl py-5">Hi, I'm Zach</h2>
-        <p>
+        <h2 className="font-black text-4xl py-5">Hi, I'm Zach</h2>
+        <p className="text-xl">
           I'm an enthusiastic developer keen to delve deeper into the tech world
           and continue my development journey.{" "}
         </p>

@@ -20,7 +20,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section>
+    <section className="px-10 py-10 mx-auto container">
       <div className="text-center justify-center items-center">
         <h2 className="font-black text-3xl">My projects</h2>
       </div>

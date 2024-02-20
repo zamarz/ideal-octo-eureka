@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Articles = () => {
   return (
-    <section>
+    <section className="px-10 py-10 mx-auto container">
       <div className="text-center justify-center items-center ">
         <h2 className="font-black text-2xl">My articles</h2>
         <p>A selection of my articles that I wrote as a tech writer</p>
