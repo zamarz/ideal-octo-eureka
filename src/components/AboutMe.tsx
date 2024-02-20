@@ -14,10 +14,9 @@ const AboutMe = () => {
         </div>
         <div className="py-7  text-xl lg:text-2xl">
           <p>
-            {" "}
             After covering the world of B2B tech as a writer, I decided to take
             the plunge and dive even deeper into the industry by becoming a
-            software developer.{" "}
+            software developer.
           </p>
           <br></br>
           <p>
@@ -27,7 +26,6 @@ const AboutMe = () => {
           </p>
           <br></br>
           <p>
-            {" "}
             I'm always looking to learn new things and jump at the opportunity
             to try my hand at unfamiliar technologies.
           </p>

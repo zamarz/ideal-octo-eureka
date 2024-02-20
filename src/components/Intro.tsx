@@ -25,7 +25,7 @@ const Intro = () => {
         </div>
         <p className="text-2xl">
           I'm an enthusiastic developer keen to delve deeper into the tech world
-          and continue my development journey.{" "}
+          and continue my development journey.
         </p>
       </div>
     </section>
