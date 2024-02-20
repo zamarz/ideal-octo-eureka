@@ -4,10 +4,10 @@ const Articles = () => {
   return (
     <section className="px-10 py-10 mx-auto container min-h-screen">
       <div className="text-center justify-center items-center ">
-        <h2 className="font-black text-2xl">My articles</h2>
-        <p>A selection of my articles that I wrote as a tech writer</p>
+        <h2 className="font-black text-3xl">My articles</h2>
+        <p className="text-xl py-3">A selection of articles I have written</p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 text-center justify-center items-center py-10 my-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 text-center justify-center items-center mx-4  py-10 my-10">
         <div>
           <Image
             src={
@@ -18,10 +18,10 @@ const Articles = () => {
             alt="An image of a mountain in Japan"
             className="w-full sm:w-auto sm:max-w-lg mx-auto my-4"
           />
-          <h2 className="font-black text-xl my-2">
+          <h2 className="font-black text-2xl my-2">
             Why does Japan lag behind on startups?
           </h2>
-          <p>
+          <p className="px-3 mx-3 my-3">
             {" "}
             The country has a reputation as a tech leader, but its startup
             ecosystem has yet to achieve its potential{" "}
@@ -45,10 +45,10 @@ const Articles = () => {
             alt="An image of code on a laptop screen"
             className="w-full sm:w-auto sm:max-w-lg mx-auto my-4"
           />
-          <h2 className="font-black text-xl my-2">
+          <h2 className="font-black text-2xl my-2">
             With AI on the rise, is it time to join a union?
           </h2>
-          <p>
+          <p className="px-3 mx-3 my-3">
             {" "}
             Workplace challenges posed by new technology could be answered by
             very traditional solutions{" "}
@@ -72,10 +72,10 @@ const Articles = () => {
             alt="An image of a mountain in Japan"
             className="w-full sm:w-auto sm:max-w-lg mx-auto my-4"
           />
-          <h2 className="font-black text-xl my-2">
+          <h2 className="font-black text-2xl my-2">
             Why Frankfurt is clamping down on data center sprawl
           </h2>
-          <p>
+          <p className="px-3 mx-3 my-3">
             {" "}
             Frankfurt’s package of data center regulations could be a model for
             cities across the world{" "}
