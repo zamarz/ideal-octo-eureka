@@ -10,11 +10,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#038C7F",
-        secondary: "#F2C641",
+        primary: "#012a4a",
+        secondary: "#a9d6e5",
         tertiary: {
-          dark: "#F27405",
-          light: "#F2C641",
+          dark: "#231942",
+          light: "#a9d6e5",
         },
       },
     },
@@ -22,3 +22,9 @@ const config: Config = {
   plugins: [],
 };
 export default config;
+
+// primary: "#038C7F",
+// secondary: "#F2C641",
+// tertiary: {
+//   dark: "#F27405",
+//   light: "#F2C641",

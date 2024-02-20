@@ -9,11 +9,11 @@ const Header = () => {
   const { darkTheme, setDarkTheme } = useContext(ThemeContext);
 
   return (
-    <header className="bg-gray-800 text-white py-8 px-6 text-xl flex flex-wrap md:flex-nowrap items-center justify-between">
+    <header className="bg-primary text-white py-8 px-6 text-xl flex flex-wrap md:flex-nowrap items-center justify-between">
       <div className="flex mx-9 my-4 items-center w-full md:2/3">
         <Link
           href="/"
-          className="font-black text-tertiary-dark mx-3 md:align-center"
+          className="font-black text-tertiary-light mx-3 md:align-center"
         >
           Zach Marzouk
         </Link>

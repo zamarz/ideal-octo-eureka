@@ -32,7 +32,7 @@ const HomePage = () => {
       </div>
       <div
         ref={ref2}
-        className={`transition-opacity ease-in duration-700  ${
+        className={`bg-secondary dark:bg-tertiary-dark transition-opacity ease-in duration-700  ${
           isVisible2 ? "opacity-100" : "opacity-0"
         }`}
       >
@@ -48,7 +48,7 @@ const HomePage = () => {
       </div>
       <div
         ref={ref4}
-        className={`transition-opacity ease-in duration-700  ${
+        className={`bg-secondary dark:bg-tertiary-dark transition-opacity ease-in duration-700  ${
           isVisible4 ? "opacity-100" : "opacity-0"
         }`}
       >
