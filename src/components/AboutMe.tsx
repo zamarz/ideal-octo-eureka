@@ -1,11 +1,17 @@
+import { BsBook } from "react-icons/bs";
+
 const AboutMe = () => {
+  const style = { fontSize: "3em" };
   return (
     <section
       id="about-me"
       className="px-10 py-10 mx-auto container min-h-screen"
     >
       <div className="py-10 mx-10 px-10">
-        <h2 className="font-black text-5xl">About Me</h2>
+        <div className="flex items-center">
+          <h2 className="font-black text-5xl">About Me</h2>
+          <BsBook style={style} className="ml-4" />
+        </div>
         <div className="py-3 text-2xl">
           <p className="">
             {" "}
