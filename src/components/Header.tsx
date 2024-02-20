@@ -41,16 +41,16 @@ const Header = () => {
       </div>
       <ul className="flex items-center justify-between w-full md:w-1/3 mt-4 mx-12">
         <li className="hover:-translate-y-2 duration-500 transition-all">
-          <Link href="/">Home</Link>
+          <Link href="#about-me">About Me</Link>
         </li>
         <li className="hover:-translate-y-2 duration-500 transition-all">
-          <Link href="/about">About Me</Link>
+          <Link href="#tech-stack">Tech Stack</Link>
         </li>
         <li className="hover:-translate-y-2 duration-500 transition-all">
-          <Link href="/lawyers">My projects</Link>
+          <Link href="#projects">Projects</Link>
         </li>
         <li className="hover:-translate-y-2 duration-500 transition-all">
-          <Link href="/contact">Contact Me</Link>
+          <Link href="#articles">Articles</Link>
         </li>
       </ul>
     </header>
