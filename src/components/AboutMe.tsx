@@ -1,9 +1,9 @@
 const AboutMe = () => {
   return (
     <section>
-      <div className="text-center justify-center items-center py-10">
+      <div className="text-center justify-center items-center py-10 ">
         <h2 className="font-black text-2xl">About Me</h2>
-        <p className="">
+        <p className="mx-12 px-12 py-6 ">
           {" "}
           After covering the world of B2B tech as a writer, I decided to take
           the plunge and dive even deeper into the industry by becoming a
