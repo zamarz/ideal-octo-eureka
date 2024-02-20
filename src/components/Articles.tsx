@@ -25,9 +25,8 @@ const Articles = () => {
             Why does Japan lag behind on startups?
           </h2>
           <p className="px-3 mx-3 my-3">
-            {" "}
             The country has a reputation as a tech leader, but its startup
-            ecosystem has yet to achieve its potential{" "}
+            ecosystem has yet to achieve its potential
           </p>
           <button className="button">
             <a
@@ -52,9 +51,8 @@ const Articles = () => {
             With AI on the rise, is it time to join a union?
           </h2>
           <p className="px-3 mx-3 my-3">
-            {" "}
             Workplace challenges posed by new technology could be answered by
-            very traditional solutions{" "}
+            very traditional solutions
           </p>
           <button className="button">
             <a
@@ -79,9 +77,8 @@ const Articles = () => {
             Why Frankfurt is clamping down on data center sprawl
           </h2>
           <p className="px-3 mx-3 my-3">
-            {" "}
-            Frankfurt’s package of data center regulations could be a model for
-            cities across the world{" "}
+            Frankfurt's package of data center regulations could be a model for
+            cities across the world
           </p>
           <button className="button">
             <a
