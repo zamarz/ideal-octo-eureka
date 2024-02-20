@@ -8,8 +8,10 @@ const TechStack = () => {
     >
       <div className="text-center justify-center items-center py-10">
         <div>
-          <h2 className="font-black text-3xl">My Tech Stack</h2>
-          <p className="text-xl">Here are some of the technologies I use...</p>
+          <h2 className="font-black text-5xl">My Tech Stack</h2>
+          <p className="text-2xl my-4">
+            Here are some of the technologies I use...
+          </p>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 py-5">
           <div className="flex flex-col items-center py-5">

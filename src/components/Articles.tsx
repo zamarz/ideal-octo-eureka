@@ -7,8 +7,8 @@ const Articles = () => {
       className="px-10 py-10 mx-auto container min-h-screen"
     >
       <div className="text-center justify-center items-center ">
-        <h2 className="font-black text-3xl">My articles</h2>
-        <p className="text-xl py-3">A selection of articles I have written</p>
+        <h2 className="font-black text-5xl">My articles</h2>
+        <p className="text-2xl py-3">A selection of articles I have written</p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 text-center justify-center items-center mx-4  py-10 my-10">
         <div className="flex flex-col items-center">

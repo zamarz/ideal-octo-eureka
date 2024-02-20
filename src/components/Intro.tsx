@@ -2,7 +2,7 @@ import Image from "next/image";
 import { IoPizzaOutline } from "react-icons/io5";
 
 const Intro = () => {
-  const style = { fontSize: "2em" };
+  const style = { fontSize: "3em" };
 
   return (
     <section className="px-10 py-10 mx-auto container min-h-screen">
@@ -18,12 +18,12 @@ const Intro = () => {
         </div>
 
         <div className="flex flex-row items-center py-5 ">
-          <h2 className="font-black text-4xl">Hi, I'm Zach</h2>
+          <h2 className="font-black text-5xl">Hi, I'm Zach</h2>
           <div className="px-5">
             <IoPizzaOutline style={style} />
           </div>
         </div>
-        <p className="text-xl">
+        <p className="text-2xl">
           I'm an enthusiastic developer keen to delve deeper into the tech world
           and continue my development journey.{" "}
         </p>

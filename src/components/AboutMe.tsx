@@ -5,8 +5,8 @@ const AboutMe = () => {
       className="px-10 py-10 mx-auto container min-h-screen"
     >
       <div className="py-10 mx-10 px-10">
-        <h2 className="font-black text-3xl">About Me</h2>
-        <div className="py-3 text-xl">
+        <h2 className="font-black text-5xl">About Me</h2>
+        <div className="py-3 text-2xl">
           <p className="">
             {" "}
             After covering the world of B2B tech as a writer, I decided to take
