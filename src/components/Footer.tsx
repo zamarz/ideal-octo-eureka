@@ -10,7 +10,7 @@ const Footer = () => {
           </Link>
         </div>
         <div>
-          <p>ICONS 8</p>
+          <p>ICONS 8 LINKEDIN GITHUB MAIN PAGE</p>
         </div>
       </div>
     </footer>

@@ -89,11 +89,11 @@ const TechStack = () => {
           <div className="flex flex-col items-center py-5">
             <Image
               src={
-                "https://raw.githubusercontent.com/zamarz/ideal-octo-eureka/main/public/assets/icons/icons8-typescript-56.png"
+                "https://raw.githubusercontent.com/zamarz/ideal-octo-eureka/main/public/assets/icons/icons8-typescript-96.png"
               }
               alt="The TypeScript Logo"
-              width={100}
-              height={100}
+              width={200}
+              height={200}
             />
             <h2 className="text-xl">TypeScript</h2>
           </div>
