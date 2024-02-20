@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { getProjects } from "../app/utils/firebase";
+import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   const [projectData, setProjectData] = useState<Array<{
@@ -33,29 +34,18 @@ const Projects = () => {
       <div className="grid grid-cols-1 sm:grid-cols-3 text-center justify-center items-center py-10 my-10">
         {/* {map over Firebase data here} */}
         <div>
+          {projectData ? (
+            projectData.map((project) => (
+              <ProjectCard key={project.id} project={project.data} />
+            ))
+          ) : (
+            <></>
+          )}
           <h1>Image Here</h1>
           <h2>Title</h2>
           <p>paragraph here</p>
           <p>Button here</p>
           <p>GITHUB AND WEB LINK</p>
-        </div>
-        <div>
-          <h1>Image Here</h1>
-          <h2>Title</h2>
-          <p>paragraph here</p>
-          <p>Button here</p>
-        </div>
-        <div>
-          <h1>Image Here</h1>
-          <h2>Title</h2>
-          <p>paragraph here</p>
-          <p>Button here</p>
-        </div>
-        <div>
-          <h1>Image Here</h1>
-          <h2>Title</h2>
-          <p>paragraph here</p>
-          <p>Button here</p>
         </div>
       </div>
     </section>
