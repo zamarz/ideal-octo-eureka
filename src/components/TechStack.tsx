@@ -8,8 +8,8 @@ const TechStack = () => {
           <h2 className="font-black text-3xl">My Tech Stack</h2>
           <p className="text-xl">Here are some of the technologies I use...</p>
         </div>
-        <div>
-          <div>
+        <div className="grid grid-cols-2 sm:grid-cols-3 py-5">
+          <div className="flex flex-col items-center py-5">
             <Image
               src={
                 "https://raw.githubusercontent.com/zamarz/cuddly-guide/1893c175ea2d96329bc014d95bd8f534493592dc/assets/icons/icons8-react.svg"
@@ -20,7 +20,7 @@ const TechStack = () => {
             />
             <h2 className="text-xl">React</h2>
           </div>
-          <div>
+          <div className="flex flex-col items-center py-5">
             <Image
               src={
                 "https://raw.githubusercontent.com/zamarz/cuddly-guide/1893c175ea2d96329bc014d95bd8f534493592dc/assets/icons/icons8-firebase.svg"
@@ -31,7 +31,7 @@ const TechStack = () => {
             />
             <h2 className="text-xl">Firebase</h2>
           </div>
-          <div>
+          <div className="flex flex-col items-center py-5">
             <Image
               src={
                 "https://raw.githubusercontent.com/zamarz/cuddly-guide/1893c175ea2d96329bc014d95bd8f534493592dc/assets/icons/icons8-git.svg"
@@ -42,7 +42,7 @@ const TechStack = () => {
             />
             <h2 className="text-xl">Git</h2>
           </div>
-          <div>
+          <div className="flex flex-col items-center py-5">
             <Image
               src={
                 "https://raw.githubusercontent.com/zamarz/cuddly-guide/1893c175ea2d96329bc014d95bd8f534493592dc/assets/icons/icons8-html.svg"
@@ -53,7 +53,7 @@ const TechStack = () => {
             />
             <h2 className="text-xl">HTML</h2>
           </div>
-          <div>
+          <div className="flex flex-col items-center py-5">
             <Image
               src={
                 "https://raw.githubusercontent.com/zamarz/cuddly-guide/1893c175ea2d96329bc014d95bd8f534493592dc/assets/icons/icons8-css.svg"
@@ -64,7 +64,7 @@ const TechStack = () => {
             />
             <h2 className="text-xl">CSS</h2>
           </div>
-          <div>
+          <div className="flex flex-col items-center py-5">
             <Image
               src={
                 "https://raw.githubusercontent.com/zamarz/cuddly-guide/1893c175ea2d96329bc014d95bd8f534493592dc/assets/icons/icons8-javascript.svg"
@@ -75,7 +75,7 @@ const TechStack = () => {
             />
             <h2 className="text-xl">JavaScript</h2>
           </div>
-          <div>
+          <div className="flex flex-col items-center py-5">
             <Image
               src={
                 "https://raw.githubusercontent.com/zamarz/cuddly-guide/1893c175ea2d96329bc014d95bd8f534493592dc/assets/icons/icons8-postgresql.svg"
@@ -86,18 +86,22 @@ const TechStack = () => {
             />
             <h2 className="text-xl">PostgreSQL</h2>
           </div>
-          <div>
+          <div className="flex flex-col items-center py-5">
             <Image
-              src={"/public/assets/icons/icons8-typescript-96.png"}
+              src={
+                "https://raw.githubusercontent.com/zamarz/ideal-octo-eureka/main/public/assets/icons/icons8-typescript-96.png"
+              }
               alt="The TypeScript Logo"
               width={200}
               height={200}
             />
             <h2 className="text-xl">TypeScript</h2>
           </div>
-          <div>
+          <div className="flex flex-col items-center py-5">
             <Image
-              src={"/public/assets/icons/icons8-typescript-96.png"}
+              src={
+                "https://raw.githubusercontent.com/zamarz/ideal-octo-eureka/6b2da3f133fde8e920f8a5ef4852b7cf76aeadb4/public/assets/icons/icons8-tailwind-css.svg"
+              }
               alt="The Tailwind Logo"
               width={200}
               height={200}
