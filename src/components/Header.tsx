@@ -41,16 +41,24 @@ const Header = () => {
       </div>
       <ul className="flex items-center justify-between w-full md:w-1/3 mt-4 mx-12">
         <li className="hover:-translate-y-2 duration-500 transition-all">
-          <Link href="#about-me">About Me</Link>
+          <Link className="text-sm md:text-base" href="#about-me">
+            About
+          </Link>
         </li>
         <li className="hover:-translate-y-2 duration-500 transition-all">
-          <Link href="#tech-stack">Tech Stack</Link>
+          <Link className="text-sm md:text-base" href="#tech-stack">
+            Tech Stack
+          </Link>
         </li>
         <li className="hover:-translate-y-2 duration-500 transition-all">
-          <Link href="#projects">Projects</Link>
+          <Link className="text-sm md:text-base" href="#projects">
+            Projects
+          </Link>
         </li>
         <li className="hover:-translate-y-2 duration-500 transition-all">
-          <Link href="#articles">Articles</Link>
+          <Link className="text-sm md:text-base" href="#articles">
+            Articles
+          </Link>
         </li>
       </ul>
     </header>

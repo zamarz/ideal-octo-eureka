@@ -9,10 +9,10 @@ const AboutMe = () => {
     >
       <div className="py-10 mx-10 px-10">
         <div className="flex items-center">
-          <h2 className="font-black text-5xl">About Me</h2>
+          <h2 className="font-black text-3xl lg:text-5xl">About Me</h2>
           <BsBook style={style} className="ml-4" />
         </div>
-        <div className="py-7 text-2xl">
+        <div className="py-7  text-xl lg:text-2xl">
           <p>
             {" "}
             After covering the world of B2B tech as a writer, I decided to take
