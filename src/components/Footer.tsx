@@ -9,6 +9,9 @@ const Footer = () => {
             Zach Marzouk
           </Link>
         </div>
+        <div>
+          <p>ICONS 8</p>
+        </div>
       </div>
     </footer>
   );
