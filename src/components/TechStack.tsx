@@ -1,6 +1,6 @@
 const TechStack = () => {
   return (
-    <section className="px-10 py-10 mx-auto container">
+    <section className="px-10 py-10 mx-auto container min-h-screen">
       <div className="text-center justify-center items-center py-10">
         <div>
           <h2 className="font-black text-2xl">My Tech Stack</h2>
