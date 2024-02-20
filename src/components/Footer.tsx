@@ -13,11 +13,16 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Links</h4>
             <div className="flex items-center space-x-2">
               <AiFillGithub />
-              <Link href={"https://github.com/zamarz"}>GitHub</Link>
+              <Link href={"https://github.com/zamarz"} target="_blank">
+                GitHub
+              </Link>
             </div>
             <div className="flex items-center space-x-2">
               <AiFillLinkedin />
-              <Link href={"https://www.linkedin.com/in/zachmarzouk/"}>
+              <Link
+                href={"https://www.linkedin.com/in/zachmarzouk/"}
+                target="_blank"
+              >
                 LinkedIn
               </Link>
             </div>
