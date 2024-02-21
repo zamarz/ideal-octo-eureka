@@ -7,6 +7,9 @@ import Articles from "./Articles";
 import Intro from "./Intro";
 import Projects from "./Projects";
 import TechStack from "./TechStack";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize(`${process.env.NEXT_PUBLIC_MEASUREMENTID}`);
 
 const HomePage = () => {
   const ref1 = useRef<HTMLDivElement>(null);
