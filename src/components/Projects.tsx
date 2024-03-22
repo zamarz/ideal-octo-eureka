@@ -30,9 +30,13 @@ const Projects = () => {
       <div>
         <div className="grid grid-cols-1 sm:grid-cols-3 text-center justify-center items-center">
           {projectData ? (
-            projectData.map((project) => (
-              <ProjectCard key={project.id} project={project.data} />
-            ))
+            projectData
+              .sort((a, b) => {
+                return a.data.sortOrder - b.data.sortOrder;
+              })
+              .map((project) => (
+                <ProjectCard key={project.id} project={project.data} />
+              ))
           ) : (
             <></>
           )}

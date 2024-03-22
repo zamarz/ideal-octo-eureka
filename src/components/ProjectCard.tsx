@@ -27,13 +27,13 @@ const ProjectCard: FC<Props> = (props) => {
       <div className="flex space-x-2 items-center justify-center">
         <div>
           <button className="button mx-5">
-            <a href={github} className="flex items-center">
+            <a href={github} target="_blank" className="flex items-center">
               <AiFillGithub className="mr-2" />
               See code
             </a>
           </button>
           <button className="button">
-            <a href={web} className="flex items-center">
+            <a href={web} target="_blank" className="flex items-center">
               <MdWeb className="mr-2" />
               Visit site
             </a>
